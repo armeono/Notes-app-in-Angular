@@ -1,0 +1,118 @@
+.container {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+    width: 70%;
+    margin-bottom: 30px;
+ 
+}
+
+.main-header {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(50deg, #2596be, #d133af);
+    
+}
+
+#title {
+    text-align: center;
+    padding-top: 20px;
+    color: #2596be;
+    letter-spacing: 0.2rem;
+    color: rgb(255, 253, 251);
+   
+}
+
+.inputWrap {
+    width: 100%;
+    display: block;
+    
+    
+}
+
+#inputBar{
+    text-align: center;
+
+    border-color: #ccc;
+    border-width: 1px;
+    width: 500px;
+
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top-color: #c5c5c5;
+}
+
+#textBar {
+    text-align: center;
+    width: 500px;
+    border-left-color: #c5c5c5;
+    border-right-color: #c5c5c5;
+    border-bottom-color: #c5c5c5;
+    border-top-color: #c5c5c5;
+    color: rgb(124, 124, 124);
+
+}
+
+
+
+#noteButton {
+    width: 500px;
+    border: none;
+
+    color: #fff;
+    
+
+    background-color: #46a8cc;
+
+    &:hover { 
+        background-color: #d133af;
+    }
+    
+
+}
+
+.note { 
+
+    margin-top: 50px;
+
+    width: 200px;
+    height: 250px;
+    border: 2px solid #ccc;    
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+    margin-left: 7px;
+
+    
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 5px 10px 8px #ccc;
+        
+    }
+    
+}
+
+
+#pText{
+
+    padding: 5px;
+    color: rgb(87, 87, 87);
+    text-align: left;
+}
+
+#noteTitle { 
+    
+    border-bottom: 1px solid #c5c5c5;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.btn-close { 
+    float: left;
+}
+

@@ -1,0 +1,2 @@
+-- @BLOCK
+SELECT * FROM notes;

@@ -1,0 +1,45 @@
+<header class="main-header">
+  <div class="container">
+    <h1 id="title">Notes</h1>
+
+  </div>
+
+
+
+  <div class="container">
+    <div class="inputWrap">
+   
+        <input type="text" id="inputBar" placeholder="Title" #input>
+        <br>
+
+        <textarea name="Text" id="textBar" cols="30" rows="10" placeholder="Text" #text></textarea>
+
+        <br>
+        <button id="noteButton" (click)="addNote(input.value, text.value)">Add note</button>
+
+
+
+    </div>
+  </div>
+
+<div *ngFor="let box of boxes; let i = index">
+
+  <div class="container">
+
+    <div class="note">
+      <button type="button" class="btn-close" aria-label="Close" (click)="removeBoxes(i, box.title)"></button>
+
+      <h2 id="noteTitle">{{box.title}}</h2>
+      <p id="pText">{{box.body}}</p>
+    </div>
+  </div>
+
+</div>
+
+  
+
+
+
+
+
+</header>
